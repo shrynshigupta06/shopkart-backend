@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap");
+@import "~antd/dist/antd.css";
+
+body {
+	overflow-x: hidden;
+	font-family: Sen !important;
+	background-color: #fafbfc;
+}
+
+.ant-layout-sider-dark,
+.ant-menu-dark {
+	background-color: #18202c !important;
+	color: #fff;
+}
+
+.ant-layout-sider {
+	min-height: 100vh;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+	border: 0;
+	/* box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px; */
+}
+
+.btn-primary {
+	background-color: #4285f4 !important;
+}
+
+.btn {
+	border: 0 !important;
+	border-radius: 4px !important;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) !important;
+}
+
+.btn:hover {
+	transition: 0.2s all ease;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2) !important;
+}
